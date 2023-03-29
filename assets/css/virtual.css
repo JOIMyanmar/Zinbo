@@ -28,8 +28,9 @@
  */
 
 :root {
-    --theme-red: #ef3724;
-    --theme-blue: #2960f7;
+    --theme-red: #04004f;
+    /* --theme-blue: #2960f7; */
+    --theme-blue: #04004f;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
     --theme-purple: #6f42c1;
@@ -337,11 +338,12 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #ef3724 !important;
+    background-color: #04004f !important;
 }
 
 .bg-theme-blue {
-    background-color: #2960f7 !important;
+    background-color: #04004f !important;
+    /* background-color: #2960f7 !important; */
 }
 
 .bg-theme-green {
@@ -357,11 +359,11 @@ a:hover, a:active {
 }
 
 .fg-theme-red {
-    color: #ef3724 !important;
+    color: #04004f !important;
 }
 
 .fg-theme-blue {
-    color: #2960f7 !important;
+    color: var(--theme-blue) !important;
 }
 
 .fg-theme-green {
@@ -1118,15 +1120,15 @@ a:hover, a:active {
 
 /* Theme red */
 .theme-red .bg-theme {
-    background-color: #EF3724 !important;
+    background-color: #04004f !important;
 }
 
 .theme-red .fg-theme {
-    color: #EF3724 !important;
+    color: #04004f !important;
 }
 
 .theme-red .btn-theme {
-    background-color: #EF3724;
+    background-color: #04004f;
     color: #fff;
 }
 
@@ -1136,27 +1138,27 @@ a:hover, a:active {
 }
 
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #04004f;
 }
 
 .theme-red .btn-theme-outline {
-    color: #EF3724;
-    box-shadow: 0 0 0 2px #EF3724;
+    color: #04004f;
+    box-shadow: 0 0 0 2px #04004f;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #EF3724;
+    background-color: #04004f;
     color: #fff;
 }
 
 .theme-red .btn-theme-outline:focus {
-    background-color: #EF3724;
+    background-color: #04004f;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #04004f;
 }
 
 .theme-red .btn-fab {
-    background-color: #EF3724;
+    background-color: #04004f;
     color: #fff;
 }
 
@@ -1166,77 +1168,77 @@ a:hover, a:active {
 }
 
 .theme-red .progress {
-    box-shadow: 0 0 0 2px #EF3724;
+    box-shadow: 0 0 0 2px #04004f;
 }
 
 .theme-red .progress-bar {
-    background-color: #EF3724;
+    background-color: #04004f;
 }
 
 .theme-red .theme-list li::before {
-    border-color: #EF3724;
+    border-color: #04004f;
 }
 
 
 /* Theme Blue */
 .theme-blue .bg-theme {
-    background-color: #2960f7 !important;
+    background-color: var(--theme-blue) !important;
 }
 
 .theme-blue .fg-theme {
-    color: #2960f7 !important;
+    color: var(--theme-blue) !important;
 }
 
 .theme-blue .btn-theme {
-    background-color: #2960f7;
+    background-color: var(--theme-blue);
     color: #fff;
 }
 
 .theme-blue .btn-theme:hover {
-    background-color: #3f71f8;
+    background-color: var(--theme-blue);
     color: #fff;
 }
 
 .theme-blue .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--theme-blue);
 }
 
 .theme-blue .btn-theme-outline {
-    color: #2960f7;
-    box-shadow: 0 0 0 2px #2960f7;
+    color: var(--theme-blue);
+    box-shadow: 0 0 0 2px var(--theme-blue);
 }
 
 .theme-blue .btn-theme-outline:hover {
-    background-color: #2960f7;
+    background-color: var(--theme-blue);
     color: #fff;
 }
 
 .theme-blue .btn-theme-outline:focus {
-    background-color: #2960f7;
+    background-color: var(--theme-blue);
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #2960f7;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--theme-blue);
 }
 
 .theme-blue .btn-fab {
-    background-color: #2960f7;
+    background-color: var(--theme-blue);
     color: #fff;
 }
 
 .theme-blue .btn-fab:hover {
-    background-color: #3f71f8;
+    background-color: var(--theme-blue);
     color: #fff;
 }
 
 .theme-blue .progress {
-    box-shadow: 0 0 0 2px #2960f7;
+    box-shadow: 0 0 0 2px var(--theme-blue);
 }
 
 .theme-blue .progress-bar {
-    background-color: #2960f7;
+    background-color: var(--theme-blue);
 }
 
 .theme-blue .theme-list li::before {
-    border-color: #2960f7;
+    border-color: var(--theme-blue);
 }
 
 

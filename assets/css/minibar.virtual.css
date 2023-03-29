@@ -380,7 +380,7 @@
     margin-top: 8px;
     padding: 15px 40px;
     background-color: #fddbd7;
-    color: #EF3724;
+    color: #04004f;
     border-radius: 40px;
     font-weight: 500;
     font-size: 18px;
@@ -604,76 +604,76 @@
 /* Theme color style */
 /* Theme Red */
 .theme-red .topbar-nav .toggle-menu:hover {
-    color: #EF3724;
+    color: #04004f;
 }
 
 .theme-red .main-menu .menu-link:hover,
 .theme-red .main-menu .active .menu-link {
-    background-color: #EF3724;
+    background-color: #04004f;
 }
 
 .theme-red .filterable-button .btn.selected,
 .theme-red .filterable-button .btn:focus {
-    background-color: #EF3724;
+    background-color: #04004f;
     color: #fff;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #EF3724;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #04004f;
 }
 
 .theme-red .timeline li:first-child .title {
-    background-color: #EF3724;
+    background-color: #04004f;
 }
 
 .theme-red .timeline li:first-child::before {
-    background-color: #EF3724;
-    box-shadow: 0 0 0 2px #EF3724;
+    background-color: #04004f;
+    box-shadow: 0 0 0 2px #04004f;
 }
 
 .theme-red .testi-carousel .item .iconic {
-    background-color: #EF3724;
+    background-color: #04004f;
 }
 
 .theme-red .post-grid .post-category {
-    color: #EF3724;
+    color: #04004f;
 }
 
 
 /* Theme Blue */
 .theme-blue .topbar-nav .toggle-menu:hover {
-    color: #2960f7;
+    color: #04004f;
 }
 
 .theme-blue .main-menu .menu-link:hover,
 .theme-blue .main-menu .active .menu-link {
-    background-color: #2960f7;
+    background-color: #04004f;
 }
 
 .theme-blue .filterable-button .btn.selected,
 .theme-blue .filterable-button .btn:focus {
-    background-color: #2960f7;
+    background-color: #04004f;
     color: #fff;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2960f7;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #04004f;
 }
 
 .theme-blue .timeline li:first-child .title {
-    background-color: #2960f7;
+    background-color: #04004f;
 }
 
 .theme-blue .timeline li:first-child::before {
-    background-color: #2960f7;
-    box-shadow: 0 0 0 2px #2960f7;
+    background-color: #04004f;
+    box-shadow: 0 0 0 2px #04004f;
 }
 
 .theme-blue .testi-carousel .item .iconic {
-    background-color: #2960f7;
+    background-color: #04004f;
 }
 
 .theme-blue .page-home .caption .tagline {
     background-color: #dae3fd;
-    color: #2960f7;
+    color: #04004f;
 }
 
 .theme-blue .post-grid .post-category {
-    color: #2960f7;
+    color: #04004f;
 }
 
 
