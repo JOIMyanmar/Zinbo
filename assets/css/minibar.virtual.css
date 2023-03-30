@@ -388,6 +388,11 @@
     transition: all .3s ease;
 }
 
+a .tagline{
+    scroll-behavior: smooth;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
 /* About */
 .page-about .img-place {
     margin: 16px auto;
